@@ -1,0 +1,30 @@
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\bin\Debug\netcoreapp2.2\backend.deps.json
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\bin\Debug\netcoreapp2.2\backend.runtimeconfig.json
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\bin\Debug\netcoreapp2.2\backend.runtimeconfig.dev.json
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\bin\Debug\netcoreapp2.2\backend.dll
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\obj\Debug\netcoreapp2.2\backend.csprojAssemblyReference.cache
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\obj\Debug\netcoreapp2.2\backend.RazorAssemblyInfo.cache
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\obj\Debug\netcoreapp2.2\backend.RazorAssemblyInfo.cs
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\obj\Debug\netcoreapp2.2\backend.AssemblyInfoInputs.cache
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\obj\Debug\netcoreapp2.2\backend.AssemblyInfo.cs
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\obj\Debug\netcoreapp2.2\backend.RazorTargetAssemblyInfo.cache
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\bin\Debug\netcoreapp2.2\backend.pdb
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\obj\Debug\netcoreapp2.2\backend.dll
+D:\Proyectos SENA\PRACTICA_NETCORE_ANGULAR_TC_802\backend\backend\obj\Debug\netcoreapp2.2\backend.pdb
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\bin\Debug\netcoreapp2.2\backend.deps.json
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\bin\Debug\netcoreapp2.2\backend.runtimeconfig.json
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\bin\Debug\netcoreapp2.2\backend.runtimeconfig.dev.json
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\bin\Debug\netcoreapp2.2\backend.dll
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\bin\Debug\netcoreapp2.2\backend.pdb
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\obj\Debug\netcoreapp2.2\backend.csprojAssemblyReference.cache
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\obj\Debug\netcoreapp2.2\backend.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\obj\Debug\netcoreapp2.2\backend.RazorAssemblyInfo.cache
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\obj\Debug\netcoreapp2.2\backend.RazorAssemblyInfo.cs
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\obj\Debug\netcoreapp2.2\backend.AssemblyInfoInputs.cache
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\obj\Debug\netcoreapp2.2\backend.AssemblyInfo.cs
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\obj\Debug\netcoreapp2.2\backend.RazorTargetAssemblyInfo.cache
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\obj\Debug\netcoreapp2.2\backend.dll
+C:\Users\Ricardo\Downloads\practicaTCAngularCORE-master\practicaTCAngularCORE-master\backend\backend\obj\Debug\netcoreapp2.2\backend.pdb

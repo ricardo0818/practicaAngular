@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\Controllers",
+    "\\backend\\Migrations",
+    "\\backend\\Model",
+    "\\backend\\Model\\DAL",
+    "\\backend\\Model\\Entities"
+  ],
+  "SelectedNode": "\\backend\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}

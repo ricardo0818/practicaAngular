@@ -1,0 +1,139 @@
+<form [formGroup] = "this.service.formularioDetallePago" autocomplete="off" (ngSubmit)="onSubmit()">
+    
+
+    <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text bg-white">
+                    <i class="fa fa-user-circle" [class.green-icon]="NombrePropietario.valid" [class.red-icon]="NombrePropietario.invalid && NombrePropietario.touched"></i>
+                </div>
+                
+            </div>
+            <input type="hidden" name="IdTarjeta" formControlName = "IdTarjeta">
+
+            <input name="NombrePropietario" formControlName = "NombrePropietario" class="form-control" placeholder="Nombre del propietario">
+            
+                      
+
+        </div>   
+
+        <div *ngIf="NombrePropietario.invalid && (NombrePropietario.touched || NombrePropietario.dirty)" class="alert alert-danger">                     
+                
+            <div *ngIf="this.NombrePropietario.hasError('required')">
+                El nombre del propietario es requerido
+            </div>  
+            
+            <div  *ngIf="this.NombrePropietario.hasError('pattern')">
+                    El nombre debe contener solo letras
+            </div>
+
+        </div>      
+        
+    </div>
+
+
+
+    <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text bg-white">
+                    <i class="fa fa-credit-card"[class.green-icon]="NumeroTarjeta.valid" [class.red-icon]="NumeroTarjeta.invalid && NumeroTarjeta.touched" ></i>
+                </div>
+            </div>
+            <input name="NumeroTarjeta" formControlName="NumeroTarjeta" class="form-control" placeholder="Numero de la tarjeta de 16 digitos">
+           
+        </div>   
+
+        <div *ngIf="NumeroTarjeta.invalid && (NumeroTarjeta.touched || NumeroTarjeta.dirty)" class="alert alert-danger">                     
+            
+            <div  *ngIf="this.NumeroTarjeta.hasError('pattern')">
+                El numero debe contener solo numeros
+            </div>
+
+            <div *ngIf="this.NumeroTarjeta.hasError('required')">
+                El numero de la tarjeta es requerido
+            </div>             
+                
+            <div  *ngIf="this.NumeroTarjeta.hasError('minlength')" >
+                El numero de la tarjeta debe tener minimo 16 caracteres
+            </div>     
+            
+            
+
+        </div>      
+    </div>
+
+
+    <div class="row">
+
+        <div class="form-group col-md-7">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text bg-white">
+                        <i class="fa fa-calendar" [class.green-icon]="FechaExpiracion.valid" [class.red-icon]="FechaExpiracion.invalid && FechaExpiracion.touched"></i>
+                    </div>
+                </div>
+                <input name="FechaExpiracion" formControlName = "FechaExpiracion" class="form-control" placeholder="MM/YY">
+            </div>  
+
+
+            <div *ngIf="FechaExpiracion.invalid && (FechaExpiracion.touched || FechaExpiracion.dirty)" class="alert alert-danger">                     
+            
+                <div  *ngIf="this.service.formularioDetallePago.controls['FechaExpiracion'].errors?.pattern">
+                    La fecha de expiracion debe contener solo numeros y ser del tipo MM/YY
+                </div>
+    
+                <div *ngIf="this.service.formularioDetallePago.controls['FechaExpiracion'].errors?.required">
+                    La fecha de expiracion es requerido
+                </div>             
+                    
+                <div  *ngIf="this.service.formularioDetallePago.controls['FechaExpiracion'].errors?.minlength" >
+                    El numero de la tarjeta debe tener minimo 5 caracteres, necesitas {{this.service.formularioDetallePago.controls['FechaExpiracion'].errors?.minlength.requiredLength - this.service.formularioDetallePago.controls['FechaExpiracion'].errors?.minlength.actualLength}} más
+                </div>                
+                
+    
+            </div>  
+            
+            
+
+
+        </div>
+
+        <div class="form-group col-md-5">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text bg-white">
+                            <i class="fa fa-key" [class.green-icon]="CVV.valid" [class.red-icon]="CVV.invalid && FechaExpiracion.touched"></i>
+                        </div>
+                    </div>
+                    <input name="CVV" formControlName="CVV" class="form-control" placeholder="CVV">
+                </div>        
+        
+
+        <div *ngIf="CVV.invalid && (CVV.touched || CVV.dirty)" class="alert alert-danger">                     
+            
+            <div  *ngIf="this.service.formularioDetallePago.controls['CVV'].errors?.pattern">
+                El CVV debe contener solo numeros
+            </div>
+
+            <div *ngIf="this.service.formularioDetallePago.controls['CVV'].errors?.required">
+               El CVV es requerido
+            </div>             
+                
+            <div  *ngIf="this.service.formularioDetallePago.controls['CVV'].errors?.minlength" >
+                El CVV debe tener minimo 4 digitos, necesitas {{this.service.formularioDetallePago.controls['FechaExpiracion'].errors?.minlength.requiredLength - this.service.formularioDetallePago.controls['FechaExpiracion'].errors?.minlength.actualLength}} más
+            </div>                
+            
+
+        </div> 
+        
+    </div>   
+
+</div>
+
+        
+
+    <div class="form-group">
+        <button class="btn btn-success btn-lg btn-block" type="submit" [disabled]="this.service.formularioDetallePago.invalid"> <i class="fa fa-database"></i> Aceptar</button>
+    </div>
+</form>
